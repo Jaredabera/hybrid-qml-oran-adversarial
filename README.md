@@ -3,6 +3,7 @@ Codebase accompanying the paper on adversarial attacks against hybrid quantum-in
 
 <img width="306" height="266" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/76d09fb1-535f-484a-9108-5b72bd169dea" />
 
+---
 This repository contains the **reference implementation** and **reproducibility artifacts** for our paper on adversarial robustness of a **hybrid quantum–classical (ResNet-18 + VQC)** interference classifier deployed as an **xApp-like microservice** in **O-RAN** settings.
 
 We study three quantum-aware attack families that target the **classical–quantum interface**:
@@ -12,6 +13,7 @@ We study three quantum-aware attack families that target the **classical–quant
   
 <img width="588" height="242" alt="model_pipeline (2)-1" src="https://github.com/user-attachments/assets/4a0a20e5-438a-4e39-9365-63fa38daa855" />
 
+---
 To address reviewer requests, the repo also includes **classical-only baselines** (CNN and lightweight ViT) evaluated under **FGSM/PGD**, unified evaluation metrics (Acc/Prec/Rec/F1/AUC + ASR), and plotting scripts/notebooks to reproduce tables/figures referenced in the manuscript and rebuttal.
 
 > **Responsible use:** This code is provided for **defensive research, reproducibility, and benchmarking**. Do **not** deploy attacks against systems you do not own or have explicit permission to test.
@@ -27,6 +29,7 @@ To address reviewer requests, the repo also includes **classical-only baselines*
   
 <img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
 
+---
 ### Attacks
 - **QC-FGSM:** end-to-end gradient through classical encoder + quantum expectation embedding
 - **QC-PGD:** iterative update with projection to ε-ball (L∞ in our runs)
@@ -43,7 +46,6 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - Optional “loss sensitivity vs ε” plot for hybrid sensitivity discussion
 
 <img width="392" height="188" alt="hybrid_quantum_autoencoder1 (2)-1" src="https://github.com/user-attachments/assets/78bafb6c-c342-4698-8ac6-18c38ea7a251" />
-
 
 ---
 
