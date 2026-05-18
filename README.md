@@ -9,6 +9,7 @@ We study three quantum-aware attack families that target the **classical–quant
 - **QC-FGSM** (inference-time, single-step hybrid gradient attack)
 - **QC-PGD** (inference-time, iterative projected hybrid gradient attack)
 - **QC-Poison** (training/update-time **hybrid drift poisoning** that induces fidelity/embedding drift at the encoder boundary)
+  
 <img width="588" height="242" alt="model_pipeline (2)-1" src="https://github.com/user-attachments/assets/4a0a20e5-438a-4e39-9365-63fa38daa855" />
 
 To address reviewer requests, the repo also includes **classical-only baselines** (CNN and lightweight ViT) evaluated under **FGSM/PGD**, unified evaluation metrics (Acc/Prec/Rec/F1/AUC + ASR), and plotting scripts/notebooks to reproduce tables/figures referenced in the manuscript and rebuttal.
@@ -23,7 +24,7 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - RF spectrogram input → **ResNet-18 feature extractor** → **6-d projection**
 - **6-qubit VQC** (3 entangling layers, strongly-entangling pattern / ZZ entanglers)
 - Measurement embedding (e.g., ⟨Z⟩ on all qubits) → classical decision head
-- 
+  
 <img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
 
 ### Attacks
@@ -42,6 +43,8 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - Optional “loss sensitivity vs ε” plot for hybrid sensitivity discussion
 
 <img width="392" height="188" alt="hybrid_quantum_autoencoder1 (2)-1" src="https://github.com/user-attachments/assets/78bafb6c-c342-4698-8ac6-18c38ea7a251" />
+
+
 ---
 
 ## Repository structure (current files)
