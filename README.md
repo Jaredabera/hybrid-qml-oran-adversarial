@@ -84,14 +84,27 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 
 We use the OTA-collected spectrogram dataset from:
 
-**A. Chiejina, B. Kim, K. Chowdhury, V. K. Shah**,  
-*System-level Analysis of Adversarial Attacks and Defenses on Intelligence in O-RAN based Cellular Networks*, ACM WiSec 2024.  
-DOI: `10.1145/3643833.3656119`
+
 
 Dataset landing page: `https://nextgwirelesslab.org/datasets/`
 
 **Task:** Binary interference detection (SOI vs CWI), 10,000 spectrograms, 128×128 grayscale (converted to 3-channel for ResNet).
 
+## Dataset
+
+This project uses the InterClass-Spec spectrogram dataset introduced in:
+**A. Chiejina, B. Kim, K. Chowdhury, V. K. Shah**,  
+*System-level Analysis of Adversarial Attacks and Defenses on Intelligence in O-RAN based Cellular Networks*, ACM WiSec 2024.  
+DOI: `10.1145/3643833.3656119`. Please cite the original work regarding the dataset.
+
+**Download:** https://nextgwirelesslab.org/datasets/
+
+After downloading, place the extracted files under:
+data/
+interclass_spec/
+train/
+val/
+test/
 ---
 
 ## Environment
