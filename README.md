@@ -3,15 +3,12 @@ Codebase accompanying the paper on adversarial attacks against hybrid quantum-in
 
 <img width="306" height="266" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/76d09fb1-535f-484a-9108-5b72bd169dea" />
 
-
-
 This repository contains the **reference implementation** and **reproducibility artifacts** for our paper on adversarial robustness of a **hybrid quantum–classical (ResNet-18 + VQC)** interference classifier deployed as an **xApp-like microservice** in **O-RAN** settings.
 
 We study three quantum-aware attack families that target the **classical–quantum interface**:
 - **QC-FGSM** (inference-time, single-step hybrid gradient attack)
 - **QC-PGD** (inference-time, iterative projected hybrid gradient attack)
 - **QC-Poison** (training/update-time **hybrid drift poisoning** that induces fidelity/embedding drift at the encoder boundary)
-- 
 <img width="588" height="242" alt="model_pipeline (2)-1" src="https://github.com/user-attachments/assets/4a0a20e5-438a-4e39-9365-63fa38daa855" />
 
 To address reviewer requests, the repo also includes **classical-only baselines** (CNN and lightweight ViT) evaluated under **FGSM/PGD**, unified evaluation metrics (Acc/Prec/Rec/F1/AUC + ASR), and plotting scripts/notebooks to reproduce tables/figures referenced in the manuscript and rebuttal.
