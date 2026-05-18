@@ -24,7 +24,9 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - RF spectrogram input → **ResNet-18 feature extractor** → **6-d projection**
 - **6-qubit VQC** (3 entangling layers, strongly-entangling pattern / ZZ entanglers)
 - Measurement embedding (e.g., ⟨Z⟩ on all qubits) → classical decision head
+- 
 <img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
+
 ### Attacks
 - **QC-FGSM:** end-to-end gradient through classical encoder + quantum expectation embedding
 - **QC-PGD:** iterative update with projection to ε-ball (L∞ in our runs)
