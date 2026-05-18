@@ -1,7 +1,7 @@
 # hybrid-qml-oran-adversarial
 Codebase accompanying the paper on adversarial attacks against hybrid quantum-inspired (ResNet-18 + VQC) interference classification for intelligent O-RAN xApps, including drift-poisoning and iterative gradient attacks with full evaluation pipeline.
 
-[architecture1 (3).pdf](https://github.com/user-attachments/files/27938745/architecture1.3.pdf)
+<img width="1017" height="884" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/e18334e6-f37d-4721-b1aa-aa634d16e398" />
 
 This repository contains the **reference implementation** and **reproducibility artifacts** for our paper on adversarial robustness of a **hybrid quantum–classical (ResNet-18 + VQC)** interference classifier deployed as an **xApp-like microservice** in **O-RAN** settings.
 
