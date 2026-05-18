@@ -1,4 +1,4 @@
-# hybrid-qml-oran-adversarial
+# Adversarial Attacks on Hybrid Quantum--Classical Interference Classifier xApps in Intelligent {O-RAN}
 Codebase accompanying the paper on adversarial attacks against hybrid quantum-inspired (ResNet-18 + VQC) interference classification for intelligent O-RAN xApps, including drift-poisoning and iterative gradient attacks with full evaluation pipeline.
 
 <img width="306" height="266" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/76d09fb1-535f-484a-9108-5b72bd169dea" />
@@ -104,16 +104,12 @@ This code was tested under the paper’s configuration:
 - PyTorch 1.13.1
 - PennyLane 0.30.0
 - (Optional) CUDA GPU for accelerating the classical backbone
-
-### Minimal setup (recommended)
-```bash
+- ```bash
 conda create -n qic_oran python=3.8 -y
 conda activate qic_oran
 
 pip install "torch==1.13.1" torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install pennylane==0.30.0 numpy scipy scikit-learn matplotlib pandas optuna jupyter
-
----
 
 ### Please Cite our paper as
 
