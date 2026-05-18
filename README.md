@@ -100,11 +100,13 @@ DOI: `10.1145/3643833.3656119`. Please cite the original work regarding the data
 **Download:** https://nextgwirelesslab.org/datasets/
 
 After downloading, place the extracted files under:
+
 data/
 interclass_spec/
 train/
 val/
 test/
+
 ---
 
 ## Environment
