@@ -35,7 +35,7 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - **QC-PGD:** iterative update with projection to ε-ball (L∞ in our runs)
 - **QC-Poison:** fidelity/embedding drift objective with momentum + ε-bounded updates (white-box, training/update pipeline)
 
-### Baselines (reviewer-added)
+### Baselines Models
 - **CNN baseline** aligned with ML-based xApp interference classification literature
 - **Lightweight ViT baseline**
 - FGSM/PGD on the **same ε grid** used for the hybrid model
