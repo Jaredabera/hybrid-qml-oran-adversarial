@@ -101,7 +101,7 @@ This code was tested under the paper’s configuration:
 - PyTorch 1.13.1
 - PennyLane 0.30.0
 - (Optional) CUDA GPU for accelerating the classical backbone
-- ```bash
+  
 conda create -n qic_oran python=3.8 -y
 conda activate qic_oran
 
@@ -109,6 +109,8 @@ pip install "torch==1.13.1" torchvision torchaudio --index-url https://download.
 pip install pennylane==0.30.0 numpy scipy scikit-learn matplotlib pandas optuna jupyter
 
 ### Please Cite our paper as
+
+```bash
 
 @article{Ergu2026TNSM_QIC_ORAN,
   author  = {Yared Abera Ergu and Van-Linh Nguyen},
