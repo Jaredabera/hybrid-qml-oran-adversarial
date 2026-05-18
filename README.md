@@ -25,7 +25,8 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - **6-qubit VQC** (3 entangling layers, strongly-entangling pattern / ZZ entanglers)
 - Measurement embedding (e.g., ⟨Z⟩ on all qubits) → classical decision head
 - 
-<img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
+<img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" /><img width="489" height="235" alt="hybrid_quantum_autoencoder1 (2)-1" src="https://github.com/user-attachments/assets/77b32aa5-61f8-42d6-831a-c94c235cf291" />
+
 
 ### Attacks
 - **QC-FGSM:** end-to-end gradient through classical encoder + quantum expectation embedding
