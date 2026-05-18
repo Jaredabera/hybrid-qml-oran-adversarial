@@ -113,8 +113,11 @@ conda activate qic_oran
 pip install "torch==1.13.1" torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install pennylane==0.30.0 numpy scipy scikit-learn matplotlib pandas optuna jupyter
 
-@article{Ergu2026TNSM_QIC_O-RAN,
-  author  = {Yared Abera Ergu and Van-Linh Nguyen and others},
+---
+### Please Cite our paper as
+
+@article{Ergu2026TNSM_QIC_ORAN,
+  author  = {Yared Abera Ergu and Van-Linh Nguyen},
   title   = {Adversarial Attacks on Hybrid Quantum--Classical Interference Classifier xApps in Intelligent {O-RAN}},
   journal = {IEEE Transactions on Network and Service Management},
   year    = {2026},
