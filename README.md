@@ -114,6 +114,7 @@ pip install "torch==1.13.1" torchvision torchaudio --index-url https://download.
 pip install pennylane==0.30.0 numpy scipy scikit-learn matplotlib pandas optuna jupyter
 
 ---
+
 ### Please Cite our paper as
 
 @article{Ergu2026TNSM_QIC_ORAN,
