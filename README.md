@@ -2,7 +2,7 @@
 Codebase accompanying the paper on adversarial attacks against hybrid quantum-inspired (ResNet-18 + VQC) interference classification for intelligent O-RAN xApps, including drift-poisoning and iterative gradient attacks with full evaluation pipeline.
 
 <img width="306" height="266" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/76d09fb1-535f-484a-9108-5b72bd169dea" />
-<img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
+<img width="1027" height="423" alt="model_pipeline (2)-1" src="https://github.com/user-attachments/assets/626be891-2934-4b7f-b538-51064129fc49" />
 
 
 This repository contains the **reference implementation** and **reproducibility artifacts** for our paper on adversarial robustness of a **hybrid quantum–classical (ResNet-18 + VQC)** interference classifier deployed as an **xApp-like microservice** in **O-RAN** settings.
@@ -24,7 +24,7 @@ To address reviewer requests, the repo also includes **classical-only baselines*
 - RF spectrogram input → **ResNet-18 feature extractor** → **6-d projection**
 - **6-qubit VQC** (3 entangling layers, strongly-entangling pattern / ZZ entanglers)
 - Measurement embedding (e.g., ⟨Z⟩ on all qubits) → classical decision head
-
+<img width="625" height="225" alt="updated_arch11 (2)-1" src="https://github.com/user-attachments/assets/bcafeb0f-a914-4f14-ac88-c49492c00dfe" />
 ### Attacks
 - **QC-FGSM:** end-to-end gradient through classical encoder + quantum expectation embedding
 - **QC-PGD:** iterative update with projection to ε-ball (L∞ in our runs)
