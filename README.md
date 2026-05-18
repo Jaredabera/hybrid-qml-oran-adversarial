@@ -1,4 +1,4 @@
-# Adversarial Attacks on Hybrid Quantum--Classical Interference Classifier xApps in Intelligent {O-RAN}
+# Adversarial Attacks on Hybrid Quantum-Classical Interference Classifier xApps in Intelligent O-RAN
 Codebase accompanying the paper on adversarial attacks against hybrid quantum-inspired (ResNet-18 + VQC) interference classification for intelligent O-RAN xApps, including drift-poisoning and iterative gradient attacks with full evaluation pipeline.
 
 <img width="306" height="266" alt="architecture1 3-1" src="https://github.com/user-attachments/assets/76d09fb1-535f-484a-9108-5b72bd169dea" />
