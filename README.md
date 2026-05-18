@@ -93,7 +93,7 @@ DOI: `10.1145/3643833.3656119`
 
 Dataset landing page: `https://nextgwirelesslab.org/datasets/`
 
-**Task:** Binary interference detection (SOI vs CWI), 10,000 spectrograms (5k/5k), 128×128 grayscale (converted to 3-channel for ResNet).
+**Task:** Binary interference detection (SOI vs CWI), 10,000 spectrograms, 128×128 grayscale (converted to 3-channel for ResNet).
 
 ---
 
@@ -112,3 +112,14 @@ conda activate qic_oran
 
 pip install "torch==1.13.1" torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install pennylane==0.30.0 numpy scipy scikit-learn matplotlib pandas optuna jupyter
+
+@article{Ergu2026TNSM_QIC_O-RAN,
+  author  = {Yared Abera Ergu and Van-Linh Nguyen and others},
+  title   = {Adversarial Attacks on Hybrid Quantum--Classical Interference Classifier xApps in Intelligent {O-RAN}},
+  journal = {IEEE Transactions on Network and Service Management},
+  year    = {2026},
+  volume  = {XX},
+  number  = {X},
+  pages   = {XXX--XXX},
+  doi     = {10.1109/TNSM.20XX.XXXXXXX}
+}
